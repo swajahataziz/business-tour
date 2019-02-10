@@ -1,0 +1,552 @@
+#initial_forms_container .hidden {
+    display: none;
+}
+
+#booking_search .form-group {
+    margin-bottom: 0;
+    width: 100% !important;
+}
+
+#booking_search .divider1 {
+    margin: 15px 0;
+}
+
+#booking_search .divider2 {
+    margin: 5px 0;
+}
+
+.divider3 {
+    margin: 10px 0;
+}
+
+#booking_search .mh5 {
+    margin-top: 0;
+}
+
+#booking_search .fadel1 {
+    margin: 5px 5px 5px 0;
+}
+
+#booking_search .fadel1 i {
+    margin-left: 10px;
+}
+
+.mywell1 {
+    margin-bottom: 20px;
+}
+
+#booking_search .hotel_room_params_header {
+    cursor: pointer;
+}
+
+#booking_search input.hotel_room, #booking_search input.hotel_adult {
+    /*border: 1px solid #D7D7D7;*/
+    /*height: 46px;*/
+}
+
+#booking_search input, #booking_search select {
+
+}
+
+#booking_search .btn-number, #booking_search .mybut1 {
+    height: 40px;
+}
+
+.about-head {
+    margin-bottom: 10px;
+}
+
+h3.search_hotel_full {
+    /*color: #05435f;*/
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+#booking_search .input-group-btn {
+    padding: 0;
+}
+
+#booking_search .input-group-btn:active {
+    background: inherit;
+}
+
+#booking_search .sinput {
+    position: relative;
+    width: 100% !important;
+}
+
+#booking_search .hint {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    background-color: #fff;
+    min-width: 350px;
+    color: #737272 !important;
+    max-height: 380px;
+    overflow-y: auto;
+    padding: 20px;
+    border-top: none;
+    font-size: 14px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .26);
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+.hotel_room_params {
+    z-index: 1000;
+    background-color: #fff;
+    min-width: 350px;
+    color: #737272 !important;
+    max-height: 380px;
+    overflow-y: auto;
+    padding: 20px;
+    border-top: none;
+    font-size: 14px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .26);
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+#booking_search .hint .search-row {
+
+    cursor: pointer;
+    padding: 3px 0;
+}
+
+.search-row b {
+    margin-top: 0px;
+    display: block;
+    color: #000;
+    font-size: 16px
+}
+
+#booking_search .hint span.name {
+    padding-left: 10px;
+}
+
+#booking_search .hint .search-row:last-child {
+    border-bottom: none;
+}
+
+#booking_search .hint .search-row:hover {
+    color: #578db1;
+}
+
+input.tiny_input {
+    width: 50px !important;
+    float: left;
+    height: 36px !important;
+}
+
+#hotel_search_results_filter .search-filter {
+    width: 100%;
+}
+
+.photo_hotel_full .highslide img {
+    border: 1px solid #999999;
+}
+
+.photo_hotel_full img {
+    max-height: 200px;
+    min-height: 200px;
+    max-width: 240px;
+
+}
+
+.photo_hotel_full {
+    max-height: 200px;
+    overflow: hidden;
+}
+
+.hotel_page_description {
+    margin-top: 20px;
+    font-size: 0.9em;
+    line-height: 1.2em;
+}
+
+.hotel_page_description h4 {
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 0.3em;
+}
+
+.hotel_room_cont {
+    border-radius: 4px;
+    background-color: #F2F2F2;
+    padding: 30px 25px 1px 25px;
+}
+
+.hotel_room_item .highslide img {
+    border: none;
+}
+
+.hotel_services_list {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+}
+
+.room_amentities_list {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+
+.hotel_total_rating_bullets {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.hotel_total_rating_bullets span {
+    margin-right: 4px;
+    color: #e0e0e0;
+}
+
+.hotel_total_rating_bullets span:last-of-type {
+    margin-right: 10px;
+}
+
+.hotel_total_rating_bullets span.checked {
+    color: #CCCCCC;
+}
+
+.hotel_total_rating_bullets i {
+    font-style: normal;
+    font-size: 0.9em;
+}
+
+#hotel_room_variant_modal {
+    z-index: 99999 !important;
+}
+
+#m_room_images img {
+    margin-right: 10px;
+}
+
+/*для мод. окна - автоподстройка размеров (с картинкой номера отеля, например)*/
+.modal-dialog.room_img {
+    position: relative;
+    display: table; /* <-- This makes the trick */
+    overflow-y: auto;
+    overflow-x: auto;
+    width: auto;
+    min-width: 300px;
+}
+
+.slick-dots {
+    position: relative !important;
+    bottom: 0 !important;
+}
+
+.slick-dots li {
+    margin: 0 auto !important;
+}
+
+/*******************************
+* MODAL AS LEFT/RIGHT SIDEBAR
+* Add "left" or "right" in modal parent div, after class="modal".
+*******************************/
+
+.modal.left .modal-dialog,
+.modal.right .modal-dialog {
+    position: fixed;
+    margin: auto;
+    min-width: 520px;
+    height: 100%;
+    -webkit-transform: translate3d(0%, 0, 0);
+    -ms-transform: translate3d(0%, 0, 0);
+    -o-transform: translate3d(0%, 0, 0);
+    transform: translate3d(0%, 0, 0);
+}
+
+.modal.left .modal-content,
+.modal.right .modal-content {
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-radius: 0;
+}
+
+.modal.left .modal-body,
+.modal.right .modal-body {
+    padding: 15px 15px 80px;
+}
+
+/*Left*/
+.modal.left.fade .modal-dialog {
+    left: -320px;
+    -webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+    -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
+    -o-transition: opacity 0.3s linear, left 0.3s ease-out;
+    transition: opacity 0.3s linear, left 0.3s ease-out;
+}
+
+.modal.left.fade.in .modal-dialog {
+    left: 0;
+}
+
+/*Right*/
+.modal.right.fade .modal-dialog {
+    right: 0;
+    /*min-width: 480px;*/
+    -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+    -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+    -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+    transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+.modal.right.fade.in .modal-dialog {
+    right: 0;
+}
+
+
+/* ----- MODAL STYLE ----- */
+.modal-content {
+    border-radius: 0;
+    border: none;
+}
+
+.modal-header {
+    border-bottom-color: #EEEEEE;
+    background-color: #FAFAFA;
+}
+
+/*******************************
+END MODAL LEFT/RIGHT
+*******************************/
+
+/*
+h4.hotel_name {
+    margin-top: 0;
+    color: #05435f;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1;
+    padding: 0;
+    margin: 30px 0px 0px 0px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+*/
+
+/*
+#hotel_search_results_step2 .hotel_description {
+    -webkit-column-width: 30%;
+    -moz-column-width: 200px;
+    column-width: 30%;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 5%;
+    -moz-column-gap: 10px;
+    column-gap: 5%;
+    -webkit-column-rule: 1px solid #ccc;
+    -moz-column-rule: 1px solid #ccc;
+    column-rule: 1px solid #ccc;
+    margin: 20px 0px;
+    max-height: 400px;
+    overflow-y: scroll;
+}
+*/
+
+.add_room_to_basket {
+    padding: 10px 30px;
+}
+
+.hotel_name .hotel-list-stars {
+    display: inline-block;
+}
+
+
+#rooms_booking_block .delete_room_from_basket {
+    cursor: pointer;
+}
+
+#taxi-order-errors {
+    min-width: 30px;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    z-index: 999;
+}
+
+.reservation-steps-item .reservation-steps-description, .reservation-steps-slider-active .reservation-steps-description {
+    border-bottom: none;
+    font-size: 0.8em;
+    line-height: 1.3em;
+    height: auto;
+    margin-top: -20px;
+    color: #989898;
+    font-weight: normal;
+}
+
+.order-travel-time_step_1 {
+    height: 54px;
+}
+
+#transfer_search .transfer_passengers_select {
+    height: 54px;
+}
+
+#initial_forms_container .transfer_passengers_select {
+    height: 54px;
+}
+
+#initial_forms_container .ticket_passengers_select, #initial_forms_container .avia_class_select {
+    height: 54px;
+    width: 100%;
+}
+
+.ticket_col {
+    padding-right: 3px;
+}
+
+.panel-station {
+    min-height: inherit;
+    display: inherit;
+    position: inherit;
+}
+
+.panel-station-from, .panel-station-to {
+    width: auto;
+    position: inherit;
+}
+
+.panel-station-separator, .panel-station-from, .panel-station-to {
+    min-height: inherit;
+    margin: initial;
+    display: initial;
+    float: initial;
+}
+
+.place_chkbox {
+    cursor: pointer;
+}
+
+.room_descr1 {
+    font-size: 0.9em;
+}
+
+.grey1 {
+    color: #ada9a9;
+}
+
+.train_dopinfo {
+    background: #d3dbe0;
+    color: #06435f;
+    padding-left: 15px;
+    padding: 2px 15px;
+    font-size: 0.75em;
+    line-height: 1.4em;
+    margin: 2px 0;
+}
+
+#ticket_search_results_avia .avia_filter_blocks_container .btn {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+#ticket_search_results_avia .avia_filter_blocks_container input[type="checkbox"] {
+    vertical-align: middle;
+}
+
+
+/*формы на первом шаге*/
+
+.main_forms_wrapper {
+    padding: 0 40px 0 40px;
+    background-color: #F2F2F2;
+}
+
+
+.main_forms_container .nav-tabs {
+    border-bottom: none;
+    position: relative;
+    top: 40px;
+}
+
+.main_forms_container .nav-item {
+    background-color: #E4E4E4;
+}
+
+
+.main_forms_container .tab-pane {
+    padding: 20px;
+}
+
+.main_forms_container .nav-item a {
+    color: #AEAEAE;
+}
+
+.main_forms_container .tab-content {
+    position: relative;
+    bottom: -40px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(242, 242, 242, 1);
+    border-radius: 0px;
+    -moz-box-shadow: 5px 5px 5px rgba(153, 153, 153, 0.349019607843137);
+    -webkit-box-shadow: 5px 5px 5px rgba(153, 153, 153, 0.349019607843137);
+    box-shadow: 5px 5px 5px rgba(153, 153, 153, 0.349019607843137);
+    color: #999999;
+}
+
+.separator_dashed {
+    height: 2px;
+    border: none;
+    padding: 0;
+    margin: 0;
+    /*border-top: 1px dashed #CCCCCC;*/
+    background: url("/templates/bt/img/u9.png") repeat-x;
+}
+
+.btfixp_form-btn-bottom {
+    position: relative;
+    bottom: -40px;
+}
+
+.btfixp_btn-shadowed {
+    cursor: pointer;
+    border: 1px solid #CCCCCC;
+    /*width: 240px;*/
+    /*height: 50px;*/
+    padding: 10px 100px;
+    background: inherit;
+    background-color: rgba(255, 255, 255, 1);
+    box-sizing: border-box;
+    /*border-width: 1px;*/
+    /*border-style: solid;*/
+    /*border-color: rgba(204, 204, 204, 1);*/
+    border-radius: 0px;
+    -moz-box-shadow: 5px 5px 5px rgba(153, 153, 153, 0.349019607843137);
+    -webkit-box-shadow: 5px 5px 5px rgba(153, 153, 153, 0.349019607843137);
+    box-shadow: 5px 5px 5px rgba(153, 153, 153, 0.349019607843137);
+    font-family: 'Arial Обычный', 'Arial';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: #666666;
+    text-transform: uppercase;
+}
+
+.btfixp_btn-shadowed:hover {
+    border: 1px solid #909090;
+}
+
+.btfixp_btn-shadowed:active {
+    -moz-box-shadow: 2px 2px 2px rgba(153, 153, 153, 0.349019607843137);
+    -webkit-box-shadow: 2px 2px 2px rgba(153, 153, 153, 0.349019607843137);
+    box-shadow: 2px 2px 2px rgba(153, 153, 153, 0.349019607843137);
+    color: #909090;
+    border: 1px solid #CCCCCC;
+}
+
+.btfixp_hotel-guest-number.form-control {
+    border: none;
+}
