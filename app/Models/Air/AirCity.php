@@ -12,5 +12,6 @@ class AirCity extends Model {
 	private sAirCityNameEn;
 	private fAirCityLongitude;
 	private fAirCityLatitude;
-	private fAirCityCountry;	
+	private sAirCityState;
+	private sAirCityCountry;	
 }

@@ -11,5 +11,6 @@ class Airport extends Model {
 	private sAirportName;
 	private sAirportCountryCode;
 	private sAirportCityCode;
+	private sAirportStateCode;
 }
 

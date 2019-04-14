@@ -11,6 +11,7 @@ class SearchController extends Controller
 
 		$type = $request('tripType');
 		$departurePort = $request('departurePort');
+		$arrivalPort = $request('arrivalPort');
 		$departureDate= $request('departureDate');
 		$flightClass = $request('flightClass');
 
@@ -20,5 +21,15 @@ class SearchController extends Controller
 
 		}
 
+	}
+
+	public function hotels(Request $result) {
+
+		$type = $request('tripType');
+		$hotelLocation = $request('hotelLocation');
+		$checkInDate = $request('checkInDate');
+		$checkOutDate = $request('checkOutDate');
+		$noOfGuests = $request('noOfGuests');
+		$noOfRooms = $request('noOfRooms');
 	}
 }
